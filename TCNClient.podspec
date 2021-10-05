@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 The iOS client library for the TCN protocol. Install using the spec `TCNClient`
                        DESC
 
-  s.homepage         = 'https://github.com/TCNCoalition/tcn-client-ios'
+  s.homepage         = 'https://github.com/invinciible/tcn-client-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Zsombor Szabo' => 'zsombor@gmail.com' }
-  s.source           = { :git => 'https://github.com/TCNCoalition/TCNClient.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/invinciible/TCNClient.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
